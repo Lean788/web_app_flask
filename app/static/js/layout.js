@@ -1,0 +1,1 @@
+alert('¡it work in my machine!');
