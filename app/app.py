@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 # import queryite3
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
 # Conexión queryite3
-
+load_dotenv()  
 
 
 @app.before_request
